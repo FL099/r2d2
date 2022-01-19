@@ -1,3 +1,5 @@
+import time
+
 class handleMotor(int):
 
     status = False
@@ -21,11 +23,14 @@ class handleMotor(int):
     def turnFor(self, ammount):
         # GpIO ammount lange mit level an Strom aktivieren
         status = True;
-        print("Motor "+ammount + "sek lang aktiviert")
+        print(1)
+        time.sleep(0.6)
+        print("Motor "+str(ammount) + "sek lang aktiviert")
+        print(2)
         status = False;
 
     def turnForBy(self, ammount, level):
         # GpIO ammount lange mit level an Strom aktivieren
         status = True;
-        print("Motor " + ammount + "sek lang aktiviert")
+        print("Motor " + str(ammount) + "sek lang aktiviert")
         status = False;

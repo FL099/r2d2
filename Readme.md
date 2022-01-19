@@ -21,7 +21,7 @@ Versuch mit einem raspberryPi einen funktionierenden(zumindest theoretischen) R2
     - [ ] Mikrophon
     - [ ] Kamera
 - [ ] Weitere Hardware besorgen
-    - [ ] LEDs
+    - [x] LEDs
     - [ ] Motoren
     - [ ] Case
     - [ ] Räder
